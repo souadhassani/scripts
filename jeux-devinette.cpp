@@ -15,9 +15,9 @@ int main() {
         attempts++;
 
         if (chiffre < nombreToChiffre) {
-            printf("C'est plus grand !\n");
-        } else if (chiffre > nombreToChiffre) {
             printf("C'est plus petit !\n");
+        } else if (chiffre > nombreToChiffre) {
+            printf("C'est plus grand !\n");
         } else {
             printf("Félicitations ! Vous avez trouvé le nombre en %d tentatives.\n", attempts);
             break;
